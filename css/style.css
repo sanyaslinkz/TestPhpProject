@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("../img/main_bg.png");
+}
+
+h1{
+    color: #ff9a00;
+}
+
+#header{
+    background: rgba(0, 0, 0, 0.83);
+    margin: 25px auto;
+    width: 1000px;
+    height: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.logtext{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    color: #161616;
+}
+
+#content{
+    position: relative;
+    margin: 25px auto;
+    width: 1000px;
+    height-min: 400px;
+    height: auto;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.83);
+    padding-bottom: 25px;
+}
+.info_text{
+    padding-left: 25px;
+    padding-right: 10px;
+    width: 615px;
+    height: auto;
+    float: left;
+    color: white;
+}
+.info_text_right{
+    padding-left: 25px;
+    padding-right: 10px;
+    width: 315px;
+    height: auto;
+    float: right;
+    color: white;
+}
+.main_logo{
+    margin: 0px;
+    padding: 25px;
+    font-size: 38px;
+    float:right ;
+}
+
+.title_reg_con{
+    padding-top: 25px;
+    font-size: 32px;
+    color: #ff9a00;
+}
+
+.inp{
+    background: url("../img/main_bg.png");
+    border: none;
+    width: 175px;
+    height: 25px;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+#LoginPanel{
+    margin-top: 123px;
+    background: rgba(255, 255, 255, 0.29);
+    height: 27px;
+}
+
+.log_inp{
+    background: url("../img/main_bg.png");
+    border: none;
+    width: 175px;
+    height: 19px;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+.SubtextLogCen{
+    padding: 0px;
+    font-size: 16px;
+    color: #ff9a00;
+}
