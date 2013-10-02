@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,38 +7,66 @@
 </head>
 <body>
 <div id="page">
-    <div id="header"><h1 class="main_logo">mob|shop</h1></div>
-    <div class="hr"></div>
+    <form method="post" id="LoginPanel" action="Login.php">
+        <center>
+            <img src="img/user-alt-1_0.png" alt="" class="icon_header user_icon"/>
+            <input type="text" name="login" placeholder="Введите Ваш логин"  class="log_inp">
+            <img src="img/password_icon.png" alt="" class="icon_header pass_icon"/>
+            <input type="password" name="password" placeholder="Ваш пароль"  class="log_inp">
+            <input type="submit" name="but_login" value="Войти" class=" ButtonLog">
+        </center>
+    </form>
     <div id="content">
-        <center><p class="title_reg_con"><b>Пройдите регистрацию</b></p></center>
-        <form method="post" id="RegisterPanel" action="Registration.php">
-            <div class="RegPanel">
-                <center>
-                    <small class="SubtextLogCen"><b>Ваше имя</b></small>
-                    <br>
-                    <input type="text" name="name" placeholder="Введите Ваше имя"  class="inp">
-                    <br>
-                    <small class="SubtextLogCen"><b>Ваш логин</b></small>
-                    <br>
-                    <input type="text" name="login" placeholder="Введите Ваш логин"  class="inp">
-                    <br>
-                    <small class="SubtextLogCen"><b>Email</b></small>
-                    <br>
-                    <input type="text" name="name" placeholder="Введите Ваше email"  class="inp">
-                    <br>
-                    <small class="SubtextLogCen"><b>Пароль</b></small>
-                    <br>
-                    <input type="password" name="password" placeholder="Ваш пароль"  class="inp">
-                    <br>
-                    <small class="SubtextLogCen"><b>Повторите пароль</b></small>
-                    <br>
-                    <input type="password" name="R_password" placeholder="Повторите пароль"  class="inp">
-                    <br>
-                    <input type="submit" name="but_reg" value="Регистрация" class="ButtonReg">
-                    <input type="submit" name="but_back" value="Назад" class="ButtonBack">
-                </center>
+        <div id="slider">
+            <div class="white_block"><b>Чашечка кофе или чашечка чая?</b>
+                <span class="link_lern_more"><a href="#">Читать подробнее...</a></span>
             </div>
-        </form>
+            <img src="img/prog_coffee.jpeg" alt="" style="width: 698px; height: 248px;"/>
+        </div>
+        <div class="all_buttons">
+            <div class="button btn_reg" data-title="Регисрация"><a href="Registration.html" class="link_circle"> </a></div>
+            <div class="button btn_home" data-title="Главная"><a href="Login.html"  class="link_circle"></a></div>
+            <div class="button btn_shop" data-title="Магазин"><a href="#"  class="link_circle"></a></div>
+        </div>
+        <div id="main_con">
+            <div class="tit_maincon">Регистрация</div>
+            <form method="post" id="RegisterPanel" action="Registration.php">
+                <div class="RegPanel">
+                    <center>
+                        <small class="SubtextLogCen"><b>Ваше имя</b></small>
+                        <br>
+                        <input type="text" name="name" placeholder="Введите Ваше имя"  class="inp">
+                        <br>
+                        <small class="SubtextLogCen"><b>Ваш логин</b></small>
+                        <br>
+                        <input type="text" name="login" placeholder="Введите Ваш логин"  class="inp">
+                        <br>
+                        <small class="SubtextLogCen"><b>Email</b></small>
+                        <br>
+                        <input type="text" name="name" placeholder="Введите Ваше email"  class="inp">
+                        <br>
+                        <small class="SubtextLogCen"><b>Пароль</b></small>
+                        <br>
+                        <input type="password" name="password" placeholder="Ваш пароль"  class="inp">
+                        <br>
+                        <small class="SubtextLogCen"><b>Повторите пароль</b></small>
+                        <br>
+                        <input type="password" name="R_password" placeholder="Повторите пароль"  class="inp">
+                        <br>
+                        <input type="submit" name="but_reg" value="Регистрация" class="ButtonReg">
+                        <input type="submit" name="but_back" value="Назад" class="ButtonBack">
+                    </center>
+                </div>
+            </form>
+        </div>
+        <div id="Last_news">
+            <div class="Title_news">Последние новости</div>
+            <center>
+                <div class="new"><span class="tit_n">New one</span><br>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</div>
+                <div class="new"><span class="tit_n">New two</span><br>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</div>
+                <div class="new"><span class="tit_n">New three</span><br>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..</div>
+            </center>
+        </div>
     </div>
 </div>
 </body>
